@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 730px;
+    padding: 24px; 
+}
+
+.accordion[open] {
+    padding: 32px; 
+}
+
+.accordion_summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion[open] .accordion_image {
+    transform: rotateX(180deg);
+}
+
+.accordion_text {
+    color: #495057;
+}
+
+
