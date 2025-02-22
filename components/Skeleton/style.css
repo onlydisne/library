@@ -1,0 +1,63 @@
+.container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+        margin:0;
+        width: 579px;
+        height: 192px;
+        border: 1px solid #ACB5BD;
+        border-radius: 8px;
+        gap: 20px;
+        padding: 32px 24px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.wrapper_rectangle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skeleton {
+    border: 1px solid #DDE2E5;
+    background: linear-gradient(
+    93deg,
+    #dde2e5 6.44%,
+    #e2e6e8 38.47%,
+    #f3f5f5 56.48%,
+    #e3e7ea 77.5%,
+    #dde2e5 102.52%
+  );
+}
+
+.circle {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.rectangle_one {
+    width: 172px;
+}
+
+.rectangle_two {
+    width: 257px;
+}
+
+.rectangle_three,
+.rectangle_four {
+    width: 515px;
+}
+
+.rectangle_one,
+.rectangle_two,
+.rectangle_three,
+.rectangle_four {
+    height: 20px;
+}
